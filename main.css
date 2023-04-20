@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.canteiner{
+   
+    padding-top: 20px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.color{
+    background: radial-gradient(54.88% 153.15% at 57.24% 57.02%, #14879F 0%, #2C3E8F 55.73%, #0179BD 63.54%, #410182 71.35%, #05B3A8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+ height: 60px;
+ padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: floralwhite;
+}
+.nav_but{
+    display: flex;
+   
+}
+.nav_but button{
+    margin-right: 15px;
+}
+.b{
+    border:none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 19px;
+    background: radial-gradient(54.88% 153.15% at 57.24% 57.02%, #14879F 0%, #2C3E8F 55.73%, #0179BD 63.54%, #410182 71.35%, #05B3A8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.bb{
+    border:none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 19px;
+    background: #FFB800;
+
+}
+.header_text{
+    width: 400px;
+    color: floralwhite;
+ 
+}
+.p{
+    display: flex;
+    align-items: center;
+}
+header{
+  padding-bottom: 100px;
+    padding-top: 60px;
+    display: flex;
+   padding-left: 180px;
+
+}
+.header_img{
+    width: 500px;
+    padding-left: 20px;
+}
+.header_text_h1{
+    font-size: 50px;
+}
+.header_text_p{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.p2{
+    font-size: 30px;
+    color: #FFB800;
+    padding: 5px;
+}
+.buu_b{
+    border:none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 19px;
+    background: #FFB800;
+    padding-bottom: 10px;
+}
+.buu{
+    padding-top: 60px;
+}
+.rasim{
+   text-align: center;
+
+}
+.rasim_1{
+    padding-left: 30px;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 180px;
+}
+.card{
+    display: flex;
+}
+.card_text{
+    width: 450px;
+    padding-left: 80px;
+    padding-top: 120px;
+}
+.card_text_h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.card_text_img{
+    padding-top: 30px;
+    
+}
+.card_text_img_1{
+    padding-left: 10px;
+}
+.card_text_1{
+    width: 450px;
+    padding-right: 80px;
+    padding-top: 120px;
+}
+.buu_1{
+    border:none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background: #01BDAA;
+    padding-bottom: 10px;
+}
+.card_text_1_but{
+    padding-top: 30px;
+}
+@media only screen and (max-width:1108px)   {
+   
+   ul{
+    display: none;
+   }
+   .header_text{
+    width: 400px;
+    color: floralwhite;
+ flex-wrap: wrap;
+}
+   .canteiner{
+    padding-top: 20px;
+    width: 1108px;
+   
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+   
+}
+@media only screen and (max-width:1014px)   {
+   
+    ul{
+     display: none;
+    }
+     
+    .canteiner{
+     padding-top: 20px;
+     width: 1014px;
+    
+     }
+     nav{
+         display: flex;
+         justify-content: space-around;
+     }
+ }
+ @media only screen and (max-width:450px)   {
+   
+    ul{
+     display: none;
+    }
+     
+    .canteiner{
+     padding-left: 5px;
+     width: 420px;
+    
+     }
+     .rasim{
+        flex-wrap: wrap;
+      
+     }
+    .rasim_1{
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+     nav{
+         display: flex;
+         justify-content: space-around;
+     }
+     header{
+        flex-wrap: wrap;
+        padding-left: 20px;
+     }
+     .header_img{
+        width: 370px;
+        padding-left: 20px;
+    }
+    .text{
+        padding-top: 30px;
+    }
+    .header_text{
+        padding-left: 20px;
+    }
+    .card{
+        flex-wrap: wrap;
+    }
+    .card_img{
+        text-align: center;
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+    .card_img_11{
+        width: 240px;
+        padding-top: 50px;
+    }
+    section{
+        padding-left: 35px;
+    }
+    .card_text{
+        width: 300px;
+        padding-top: 20px;
+    }
+    .card_text_1{
+        width: 500px;
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+ }
+
+ @media only screen and (max-width:391px)   {
+   
+    ul{
+     display: none;
+    }
+     
+    .canteiner{
+     padding-top: 20px;
+     width: 391px;
+    
+     }
+     nav{
+         display: flex;
+      
+     }
+     header{
+        flex-wrap: wrap;
+        padding-left: 20px;
+     }
+     .header_img{
+        width: 300px;
+        padding-left: 50px;
+    }
+    .text{
+        padding-top: 30px;
+    }
+    .header_text{
+        padding-left: 10px;
+    }
+ }
